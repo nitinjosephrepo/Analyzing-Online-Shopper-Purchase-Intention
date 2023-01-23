@@ -56,5 +56,5 @@ We get the following output
 1. Coefficients for each of the month indicate that this retail store does the most business in November(0.54), followed by July and then January(0.08) Dropped month) 
 2. Store does better on weekend than weekdays
 3. Very intrestingly data shows us that First time visitor(Dropped variable which is 1 and the compared is -0.32) are more likely to purchase. Which explains why While the number of returning customers to the website is high, the conversion rate is low compared to that of new customers.
-4. We can see that Exit Rates have the single biggest impact on likelihood of purchase. We calculate the probability 
+4. We can see that Exit Rates have the single biggest negative impact on likelihood of purchase(-15.5). We calculate the probability 
  
