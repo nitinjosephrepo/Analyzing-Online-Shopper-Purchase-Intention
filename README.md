@@ -57,4 +57,21 @@ We get the following output
 2. Store does better on weekend than weekdays
 3. Very intrestingly data shows us that First time visitor(Dropped variable which is 1 and the compared is -0.32) are more likely to purchase. Which explains why While the number of returning customers to the website is high, the conversion rate is low compared to that of new customers.
 4. We can see that Exit Rates have the single biggest negative impact on likelihood of purchase(-15.5). Using K-means clustering we will arrive at what healthy Exit Rate should we be aiming for. 
+
+**Insights from K-Means Clustering**
+
+Given that we have identified High Exit Rate to be a big factor through Logistic Regression, it's important to understand from Business perspective relationship of Exit rate to informational duration and product related duration. 
+
+
+<img width="916" alt="Screenshot 2023-01-23 at 11 38 47 PM" src="https://user-images.githubusercontent.com/80999165/214213405-5f475f74-4805-4a99-926a-d95c35139504.png">
+
+Visitors with information Duration of 480+ Seconds are highly likely to result in transaction. With majority of customers taking 480 to 1000 Seconds before making a purchase decision. 
+
+
+What about Page Value and Bounce Rate?
+
+<img width="1130" alt="Screenshot 2023-01-23 at 10 35 45 PM" src="https://user-images.githubusercontent.com/80999165/214214257-e5661768-4d86-463c-9ccc-24f3f3cd8816.png">
+
+We can see that Bounce rate is a problem, but not so much for Pages that have have Page value of 25+, despite bounce rate page values of 25+ have a 
+very solid chance of resulting in transactions. 
  
